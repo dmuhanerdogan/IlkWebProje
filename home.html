@@ -1,0 +1,384 @@
+		<!doctype html>
+	<html lang="en">
+	  <head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href= "css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href= "css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href= "css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href= "css/main.css"/>
+		<link rel="stylesheet" type="text/css" href= "css/vegas.min.css"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400" rel="stylesheet"/>
+		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="signUp.css">
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+		<script type="text/javascript" src="signUp.js"></script>
+		
+		<title>SİGORTA WEBSITE</title>
+	  </head>
+	  <body>
+	  <div class="container">
+	  
+		<section id="cover">
+				<div class="ui centered  grid container">
+					<div class="row">
+						<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+							<a class="navbar-brand" href="#"><img src="images/logo.png"/></a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+							<div class="collapse navbar-collapse justify-content-end id="navbarNav">
+								<ul class="navbar-nav">
+									<li>
+										<a class="nav-link" href="#" onclick="window.location.href='index.html'" value="link"><b>ANA SAYFA</b><span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#" onclick="window.location.href='page2.html'"><b>HIZLI TEKLİF</b></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#"><b>KURUM</b></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#" onclick="window.location.href='login.html'"><b>İLETİŞİM</b></a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					
+					
+			
+		<div class="row text-center">
+			<div class="ui text container">
+
+
+			  <div class="three ui  buttons center aligned grid container" style="margin:20px;">
+
+
+				<div class=" ui  big basic violet button" id="accountS">
+
+				  <div class="content " style="font-size:12px;color:white;"  >KİŞİSEL BİLGİLER</div>
+				</div>
+
+
+				<button class=" ui  big disabled blue basic button" id="socialP">
+					 <div class="content" style="font-size:12px;color:white;">SİGORTA DURUMU</div>
+					 </button>
+
+
+				<button class=" disabled ui big orange basic button" id="details">
+
+					 <div class="content" style="font-size:12px;color:white;">ARAÇ BİLGİLERİ</div>
+					 </button>
+			  </div>
+
+
+			  <div class="row"></div>
+			  <div class="row"></div>
+
+
+			  <div id="account">
+
+
+				<div class="ui center aligned  segment container " id="signUpBox" style="background-color: #F1F0FF;border-radius:5px;">
+
+
+				  <div class="ui centered header">
+					<h1 class="font" style="color:#300032;">Kişisel Bilgilerinizi Girin</h1>
+				  </div>
+
+				  <form class="ui form">
+					
+					
+					<div class="field">
+					  <div class="item-square text-center">
+						<i class="fa fa-id-card-o fa-4x" ></i>
+						<input type="number" placeholder="TC-Kimlik No:">
+					  </div>
+					</div>
+					
+					<div class="checkbox">
+						<input type="checkbox"  value="true" />
+							<p>Daha önce sigorta yaptırdınız mı?</p>
+							<label>Evet</label>
+						<input type="checkbox"  value="true" />
+							<label>Hayır</label>
+							
+					</div>
+					
+					<div class="field">
+					  <div class="item-square text-center">
+						<i class="fa fa-mobile fa-4x" ></i>
+						<input type="number" placeholder="Telefon No:">
+					  </div>
+					</div>
+					
+					<div class="field">
+					  <div class="item-square text-center">
+						<i class="fa fa-envelope fa-4x" ></i>
+						<input type="text" placeholder="E-mail:">
+					  </div>
+					</div>
+					
+					
+					<div class="btn-group">
+						<button type="button" class="btn btn-secondary"> İL </button>
+						<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Adana</a>
+							<a class="dropdown-item" href="#">Adıyaman</a>
+							<a class="dropdown-item" href="#">Afyonkarahisar</a>
+							<a class="dropdown-item" href="#">Ağrı</a>
+							<a class="dropdown-item" href="#">Amasyas</a>
+							<a class="dropdown-item" href="#">Ankara</a>
+							<a class="dropdown-item" href="#">Antalya</a>
+							<a class="dropdown-item" href="#">Artvin</a>
+							<a class="dropdown-item" href="#">Aydın</a>
+							<a class="dropdown-item" href="#">Balıkesir</a>
+							<a class="dropdown-item" href="#">Bilecik</a>
+							<a class="dropdown-item" href="#">Bingöl</a>
+							<a class="dropdown-item" href="#">Bitlis</a>
+							<a class="dropdown-item" href="#">Bolu</a>
+							<a class="dropdown-item" href="#">Burdur</a>
+							<a class="dropdown-item" href="#">Bursa</a>
+							<a class="dropdown-item" href="#">Çanakkale</a>
+							<a class="dropdown-item" href="#">Çankırı</a>
+							<a class="dropdown-item" href="#">Çorum</a>
+							<a class="dropdown-item" href="#">Denizli</a>
+							<a class="dropdown-item" href="#">Diyarbakır</a>
+							<a class="dropdown-item" href="#">Edirne</a>
+							<a class="dropdown-item" href="#">Elazığ</a>
+							<a class="dropdown-item" href="#">Erzincan</a>
+							<a class="dropdown-item" href="#">Erzurum</a>
+							<a class="dropdown-item" href="#">Eskişehir</a>
+							<a class="dropdown-item" href="#">Gaziantep</a>
+							<a class="dropdown-item" href="#">Giresun</a>
+							<a class="dropdown-item" href="#">Gümüşhane</a>
+							<a class="dropdown-item" href="#">Hakkari</a>
+							<a class="dropdown-item" href="#">Hatay</a>
+							<a class="dropdown-item" href="#">Isparta</a>
+							<a class="dropdown-item" href="#">İçel(Mersin)</a>
+							<a class="dropdown-item" href="#">İstanbul</a>
+							<a class="dropdown-item" href="#">İzmir</a>
+							<a class="dropdown-item" href="#">Kars</a>
+							<a class="dropdown-item" href="#">Kastamonu</a>
+							<a class="dropdown-item" href="#">Kayseri</a>
+							<a class="dropdown-item" href="#">Kırklareli</a>
+							<a class="dropdown-item" href="#">Kırşehir</a>
+							<a class="dropdown-item" href="#">Konya</a>
+							<a class="dropdown-item" href="#">Kütahya</a>
+							<a class="dropdown-item" href="#">Malatya</a>
+							<a class="dropdown-item" href="#">Manisa</a>
+							<a class="dropdown-item" href="#">Kahramanmaraş</a>
+							<a class="dropdown-item" href="#">Mardin</a>
+							<a class="dropdown-item" href="#">Muğla</a>
+							<a class="dropdown-item" href="#">Muş</a>
+							<a class="dropdown-item" href="#">Nevşehir</a>
+							<a class="dropdown-item" href="#">Niğde</a>
+							<a class="dropdown-item" href="#">Ordu</a>
+							<a class="dropdown-item" href="#">Rize</a>
+							<a class="dropdown-item" href="#">Sakarya</a>
+							<a class="dropdown-item" href="#">Samsun</a>
+							<a class="dropdown-item" href="#">Siirt</a>
+							<a class="dropdown-item" href="#">Sinop</a>
+							<a class="dropdown-item" href="#">Sivas</a>
+							<a class="dropdown-item" href="#">Tekirdağ</a>
+							<a class="dropdown-item" href="#">Tokat</a>
+							<a class="dropdown-item" href="#">Trabzon</a>
+							<a class="dropdown-item" href="#">Tunceli</a>
+							<a class="dropdown-item" href="#">Şanlıurfa</a>
+							<a class="dropdown-item" href="#">Uşak</a>
+							<a class="dropdown-item" href="#">Van</a>
+							<a class="dropdown-item" href="#">Yozgat</a>
+							<a class="dropdown-item" href="#">Zonguldak</a>
+							<a class="dropdown-item" href="#">Aksaray</a>
+							<a class="dropdown-item" href="#">Bayburt</a>
+							<a class="dropdown-item" href="#">Karaman</a>
+							<a class="dropdown-item" href="#">Kırıkkale</a>
+							<a class="dropdown-item" href="#">Batman</a>
+							<a class="dropdown-item" href="#">Şırnak</a>
+							<a class="dropdown-item" href="#">Bartın</a>
+							<a class="dropdown-item" href="#">Ardahan</a>
+							<a class="dropdown-item" href="#">Iğdır</a>
+							<a class="dropdown-item" href="#">Yalova</a>
+							<a class="dropdown-item" href="#">Karabük</a>
+							<a class="dropdown-item" href="#">Kilis</a>
+							<a class="dropdown-item" href="#">Osmaniye</a>
+							<a class="dropdown-item" href="#">Düzce</a>
+						</div>
+					</div>		
+					
+					
+					<div class="one ui buttons">
+					  <button class="ui  inverted violet  medium button next1 ">İleri</button>
+					</div>
+					
+					
+					
+				  </form>
+
+
+				</div>
+
+			  </div>
+
+
+			 <div id="social">
+
+
+				<div class="ui center aligned  segment container " id="signUpBox" style="background-color: #F1F0FF;border-radius:5px;">
+
+
+							<div class="ui centered header">
+								<h1 class="font" style="color:rgb(50,153,153);">Konut Bilgileri</h1>
+							</div>
+
+					    <form class="ui form">
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Adres Bilgileri:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									<!-- DROPDOWN OLACAK Müstakil/1-4 Arası/1-7 Arası/1-12 Arası/12 Üzeri-->
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Kat Sayısı:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Metrekare:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">İnşaat Yılı:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									
+									<!-- DROPDOWN OLACAK  Betonarme/Çelik/Yığma/Diğer-->
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Yapı Tarzı:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Bina Bedeli:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Eşya Bedeli:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									<!-- CHECKBOX OLACAK dahil/hariç şeklinde-->
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Kira Kaybı:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									<!-- CHECKBOX OLACAK-->
+									<div class="form-check">
+											<label class="form-check-label" for="exampleCheck1">Kıymetli Eşya:</label>
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									</div>
+									
+							 <div class="form-group">
+								<div class="checkbox-area">
+									<div class="checkbox">
+										<input type="checkbox" id="KVKK" name="KVKK" value="true" required />
+										<label for="KVKK"></label>
+										<label for="KVKK">
+											<a href="javascript:new Modal().KVKK()">Kişisel Verilerin İşlenmesi ve Aktarılmasına İlişkin Aydınlatma Metni</a>'ni okudum, onaylıyorum.
+										</label>
+									</div>
+								</div>
+							</div>
+							
+
+							<div class="two ui buttons">
+								<button class="ui  inverted violet  medium button prev2">Önceki</button>
+								<button class="ui  inverted violet  medium button submit">Teklif Al</button>
+							</div>
+						</form>
+				</div>
+
+			</div>
+
+
+			
+
+
+			</div>
+		</div>
+	</div>		
+	</div>
+	</section>
+		
+	<script src="js/jquery-3.3.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>	
+	<script src="js/vegas.min.js"></script>
+	<script  src="js/index.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
+	
+	</div>
+	</body>
+	</html>
+	
+	<script>
+	$('body').vegas({
+	  overlay: true,
+	  transition: 'fade', 
+	  transitionDuration: 4000,
+	  delay: 17000,
+	  color: 'red',
+	  animation: 'random',
+	  animationDuration: 20000,
+	  slides: [
+		{ src: 'images/a7.jpg' },
+		{ src: 'images/a1.jpg' },
+		{ src: 'images/a20.jpg' }
+	  ]
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".my-btn-submit").hide();
+	});
+	var myMessageShow=function()
+	{
+		swal({
+	  title: "Are you sure?",
+	  text: "Once deleted, you will not be able to recover this imaginary file!",
+	  icon: "warning",
+	  buttons: true,
+	  dangerMode: true,
+	})
+	.then((willDelete) => {
+	  if (willDelete) {
+		swal("Poof! Your imaginary file has been deleted!", {
+		  icon: "success",
+		});
+	  } else {
+		swal("Your imaginary file is safe!");
+	  }
+	});
+	}
+
+	</script>
